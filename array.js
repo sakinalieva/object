@@ -36,15 +36,13 @@ const arr = [1, 2, 3, 4, 5, 6];
    if (arrr[i] % 2 == 0) { 
      ar1 = [...ar1, arrr[i]]; 
    } 
- } 
- console.log(ar1); 
- for (let i = 0; i < arrr.length; i++) { 
-   if (arrr[i] % 2 != 0) { 
+else { 
      ar2=[...ar2,arrr[i]] 
    } 
  } 
+ console.log(ar1); 
  console.log(ar2); 
-  
+ 
 //5. Massivdə yerləşən ədələri böyükdən kiçiyə və kiçikdən böyüyə çeşidliyin.
 let a=[6,9,4,5,7,3] 
   for(i=0;i<a.length;i++){ 
